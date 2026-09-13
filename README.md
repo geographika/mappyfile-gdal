@@ -59,9 +59,9 @@ gdal info natural_earth_vector.gpkg --of JSON --layer ne_10m_lakes --layer ne_10
 map2img -m out.map -o out.png
 ```
 
-![Countries and lakes rendered by MapServer](output.png)
+![Countries and lakes rendered by MapServer](out.png)
 
-The generated Mapfile is [output.map](output.map).
+The generated Mapfile is [out.map](out.map).
 
 ### Options
 
