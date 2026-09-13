@@ -1,0 +1,6 @@
+filename,driver
+.\aaigrid\pixel_per_line.asc,AAIGrid
+.\vrt\n43_hillshade.vrt,VRT
+.\wms\demo_mapserver_org.xml,WMS
+.\wms\frmt_wms_openstreetmap_tms.xml,WMS
+.\filegdb\water_lake_bathy_shaded_relief_only_metadata.gdb,OpenFileGDB

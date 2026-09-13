@@ -1,0 +1,3622 @@
+MAP
+    NAME "GDAL"
+    SIZE 1600 873
+    OUTPUTFORMAT
+        NAME "png24"
+        DRIVER "AGG/PNG"
+        MIMETYPE "image/png"
+        IMAGEMODE RGB
+        EXTENSION "png"
+    END
+    IMAGETYPE "png24"
+    PROJECTION
+        "EPSG:4326"
+    END
+    EXTENT -197.8769 -107.8765 197.8798 107.8767
+    RESOLUTION 144
+    DEFRESOLUTION 72
+    SYMBOL
+        NAME "circle"
+        TYPE ELLIPSE
+        FILLED TRUE
+        POINTS
+            1 1
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_antarctic_claims"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_antarctic_claims"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_arg"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_arg"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_bdg"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_bdg"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_bra"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_bra"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_chn"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_chn"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_deu"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_deu"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_egy"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_egy"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_esp"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_esp"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_fra"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_fra"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_gbr"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_gbr"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_grc"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_grc"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_idn"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_idn"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_ind"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_ind"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_iso"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_iso"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_isr"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_isr"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_ita"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_ita"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_jpn"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_jpn"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_kor"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_kor"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_lakes"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_mar"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_mar"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_nep"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_nep"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_nld"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_nld"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_pak"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_pak"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_pol"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_pol"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_prt"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_prt"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_pse"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_pse"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_rus"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_rus"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_sau"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_sau"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_swe"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_swe"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_tlc"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_tlc"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_tur"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_tur"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_twn"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_twn"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_ukr"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_ukr"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_usa"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_usa"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries_vnm"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries_vnm"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_disputed_areas"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_disputed_areas"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_disputed_areas_scale_rank_minor_islands"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_disputed_areas_scale_rank_minor_islands"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_map_subunits"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_map_subunits"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_map_units"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_map_units"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_scale_rank_minor_islands"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_scale_rank_minor_islands"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_sovereignty"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_sovereignty"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_1_states_provinces"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_1_states_provinces"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_1_states_provinces_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_1_states_provinces_lakes"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_1_states_provinces_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_1_states_provinces_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_1_states_provinces_scale_rank_minor_islands"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_1_states_provinces_scale_rank_minor_islands"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_2_counties"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_2_counties"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_2_counties_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_2_counties_lakes"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_2_counties_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_2_counties_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_2_counties_scale_rank_minor_islands"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_2_counties_scale_rank_minor_islands"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_2_counties_to_match"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_2_counties_to_match"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_parks_and_protected_lands_area"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_parks_and_protected_lands_area"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_parks_and_protected_lands_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_parks_and_protected_lands_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_time_zones"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_time_zones"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_urban_areas"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_urban_areas"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_urban_areas_landscan"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_urban_areas_landscan"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_antarctic_ice_shelves_polys"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_antarctic_ice_shelves_polys"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_geography_marine_polys"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_geography_marine_polys"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_geography_regions_polys"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_geography_regions_polys"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_glaciated_areas"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_glaciated_areas"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_lakes"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_lakes_australia"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_lakes_australia"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_lakes_europe"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_lakes_europe"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_lakes_historic"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_lakes_historic"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_lakes_north_america"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_lakes_north_america"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_lakes_pluvial"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_lakes_pluvial"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_land"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_land"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_land_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_land_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_minor_islands"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_minor_islands"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_ocean"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_ocean"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_ocean_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_ocean_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_playas"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_playas"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_breakaway_disputed_areas"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_breakaway_disputed_areas"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_breakaway_disputed_areas_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_breakaway_disputed_areas_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_countries"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_countries"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_countries_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_countries_lakes"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_map_subunits"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_map_subunits"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_map_units"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_map_units"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_sovereignty"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_sovereignty"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_1_states_provinces"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_1_states_provinces"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_1_states_provinces_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_1_states_provinces_lakes"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_1_states_provinces_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_1_states_provinces_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_urban_areas"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_urban_areas"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_antarctic_ice_shelves_polys"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_antarctic_ice_shelves_polys"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_geography_marine_polys"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_geography_marine_polys"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_geography_regions_polys"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_geography_regions_polys"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_glaciated_areas"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_glaciated_areas"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_lakes"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_lakes_historic"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_lakes_historic"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_land"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_land"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_ocean"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_ocean"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_playas"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_playas"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_0_countries"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_0_countries"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_0_countries_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_0_countries_lakes"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_0_map_units"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_0_map_units"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_0_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_0_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_0_sovereignty"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_0_sovereignty"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_1_states_provinces"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_1_states_provinces"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_1_states_provinces_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_1_states_provinces_lakes"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_1_states_provinces_scale_rank"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_1_states_provinces_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_geography_marine_polys"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_geography_marine_polys"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_geography_regions_polys"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_geography_regions_polys"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_glaciated_areas"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_glaciated_areas"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_lakes"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_land"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_land"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_ocean"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_ocean"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_antarctic_claim_limit_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_antarctic_claim_limit_lines"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_boundary_lines_disputed_areas"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_boundary_lines_disputed_areas"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_boundary_lines_land"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_boundary_lines_land"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_boundary_lines_map_units"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_boundary_lines_map_units"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_boundary_lines_maritime_indicator"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_boundary_lines_maritime_indicator"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_boundary_lines_maritime_indicator_chn"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_boundary_lines_maritime_indicator_chn"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_pacific_groupings"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_pacific_groupings"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_seams"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_seams"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_1_seams"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_1_seams"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_1_states_provinces_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_1_states_provinces_lines"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_2_counties_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_2_counties_lines"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_parks_and_protected_lands_line"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_parks_and_protected_lands_line"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_railroads"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_railroads"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_railroads_north_america"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_railroads_north_america"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_roads"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_roads"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_roads_north_america"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_roads_north_america"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_antarctic_ice_shelves_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_antarctic_ice_shelves_lines"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_coastline"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_coastline"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_geographic_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_geographic_lines"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_land_ocean_seams"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_land_ocean_seams"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_minor_islands_coastline"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_minor_islands_coastline"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_reefs"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_reefs"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_rivers_australia"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_rivers_australia"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_rivers_europe"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_rivers_europe"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_rivers_lake_centerlines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_rivers_lake_centerlines"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_rivers_lake_centerlines_scale_rank"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_rivers_lake_centerlines_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_rivers_north_america"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_rivers_north_america"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_1_sel"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_1_sel"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_boundary_lines_disputed_areas"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_boundary_lines_disputed_areas"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_boundary_lines_land"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_boundary_lines_land"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_boundary_lines_maritime_indicator"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_boundary_lines_maritime_indicator"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_boundary_lines_maritime_indicator_chn"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_boundary_lines_maritime_indicator_chn"
+        CLASS
+            STYLE
+                COLOR "#e6c2d6"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_boundary_map_units"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_boundary_map_units"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_pacific_groupings"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_pacific_groupings"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_1_seams"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_1_seams"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_1_states_provinces_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_1_states_provinces_lines"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_antarctic_ice_shelves_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_antarctic_ice_shelves_lines"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_coastline"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_coastline"
+        CLASS
+            STYLE
+                COLOR "#c3b1e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_geographic_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_geographic_lines"
+        CLASS
+            STYLE
+                COLOR "#f5f0e1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_rivers_lake_centerlines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_rivers_lake_centerlines"
+        CLASS
+            STYLE
+                COLOR "#89c2c2"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_rivers_lake_centerlines_scale_rank"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_rivers_lake_centerlines_scale_rank"
+        CLASS
+            STYLE
+                COLOR "#d4b483"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_0_boundary_lines_land"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_0_boundary_lines_land"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_0_pacific_groupings"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_0_pacific_groupings"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_1_states_provinces_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_1_states_provinces_lines"
+        CLASS
+            STYLE
+                COLOR "#b5c7d3"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_coastline"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_coastline"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_geographic_lines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_geographic_lines"
+        CLASS
+            STYLE
+                COLOR "#e8a598"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_rivers_lake_centerlines"
+        TYPE LINE
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_rivers_lake_centerlines"
+        CLASS
+            STYLE
+                COLOR "#a8d5ba"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_label_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_label_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_names"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_names"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_1_label_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_1_label_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#e8a598"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_1_label_points_details"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_1_label_points_details"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_2_label_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_2_label_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_2_label_points_details"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_2_label_points_details"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_airports"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_airports"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_parks_and_protected_lands_point"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_parks_and_protected_lands_point"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#a8d5ba"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_populated_places"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_populated_places"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#c3b1e1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_populated_places_simple"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_populated_places_simple"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_ports"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_ports"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_geography_regions_elevation_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_geography_regions_elevation_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_geography_regions_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_geography_regions_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_land_ocean_label_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_land_ocean_label_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_minor_islands_label_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_minor_islands_label_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_tiny_countries"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_tiny_countries"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_admin_0_tiny_countries_scale_rank"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_admin_0_tiny_countries_scale_rank"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_airports"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_airports"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_populated_places"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_populated_places"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_populated_places_simple"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_populated_places_simple"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#e6c2d6"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_ports"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_ports"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_geography_regions_elevation_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_geography_regions_elevation_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#d4b483"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_50m_geography_regions_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_50m_geography_regions_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#b5c7d3"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_admin_0_tiny_countries"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_admin_0_tiny_countries"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_populated_places"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_populated_places"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_populated_places_simple"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_populated_places_simple"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_geography_regions_elevation_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_geography_regions_elevation_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#f5f0e1"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_110m_geography_regions_points"
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_110m_geography_regions_points"
+        CLASS
+            STYLE
+                SYMBOL "circle"
+                SIZE 8
+                COLOR "#89c2c2"
+                OPACITY 30
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+END

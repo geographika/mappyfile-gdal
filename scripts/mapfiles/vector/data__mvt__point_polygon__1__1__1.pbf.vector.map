@@ -1,0 +1,40 @@
+MAP
+    NAME "GDAL"
+    SIZE 1600 1600
+    OUTPUTFORMAT
+        NAME "png24"
+        DRIVER "AGG/PNG"
+        MIMETYPE "image/png"
+        IMAGEMODE RGB
+        EXTENSION "png"
+    END
+    IMAGETYPE "png24"
+    SHAPEPATH "C:/docs/gdal/autotest/ogr"
+    PROJECTION
+        "EPSG:3857"
+    END
+    EXTENT -22105.4 -467274.7 467274.7 22105.4
+    RESOLUTION 144
+    DEFRESOLUTION 72
+    LAYER
+        NAME "polygon2"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "data/mvt/point_polygon/1/1/1.pbf"
+        DATA "polygon2"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:3857"
+        END
+    END
+END

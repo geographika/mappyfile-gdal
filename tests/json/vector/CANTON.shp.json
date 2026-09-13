@@ -1,0 +1,211 @@
+{
+  "description":"D:\\Data\\France\\ADMIN-EXPRESS_3-2__SHP_LAMB93_FXX_2025-02-17\\ADMIN-EXPRESS\\1_DONNEES_LIVRAISON_2025-02-00187\\ADE_3-2_SHP_LAMB93_FXX-ED2025-02-17\\CANTON.shp",
+  "driverShortName":"ESRI Shapefile",
+  "driverLongName":"ESRI Shapefile",
+  "layers":[
+    {
+      "name":"CANTON",
+      "metadata":{
+        "":{
+          "DBF_DATE_LAST_UPDATE":"2025-02-17"
+        },
+        "SHAPEFILE":{
+          "CPG_VALUE":"UTF-8",
+          "ENCODING_FROM_CPG":"UTF-8",
+          "SOURCE_ENCODING":"UTF-8"
+        }
+      },
+      "geometryFields":[
+        {
+          "name":"",
+          "type":"MultiPolygon",
+          "nullable":true,
+          "extent":[
+            99041.5,
+            6046546.7000000002,
+            1242423.8,
+            7110497.0
+          ],
+          "coordinateSystem":{
+            "wkt":"PROJCRS[\"RGF93 Lambert 93\",\n    BASEGEOGCRS[\"RGF93 geographiques (dms)\",\n        DATUM[\"Reseau Geodesique Francais 1993 v1\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"IGNF\",\"RGF93G\"]],\n    CONVERSION[\"LAMBERT-93\",\n        METHOD[\"Lambert Conic Conformal (2SP)\",\n            ID[\"EPSG\",9802]],\n        PARAMETER[\"Latitude of false origin\",46.5,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8821]],\n        PARAMETER[\"Longitude of false origin\",3,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8822]],\n        PARAMETER[\"Latitude of 1st standard parallel\",44,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8823]],\n        PARAMETER[\"Latitude of 2nd standard parallel\",49,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8824]],\n        PARAMETER[\"Easting at false origin\",700000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8826]],\n        PARAMETER[\"Northing at false origin\",6600000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8827]]],\n    CS[Cartesian,2],\n        AXIS[\"easting (X)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"northing (Y)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"NATIONALE A CARACTERE LEGAL\"],\n        AREA[\"FRANCE METROPOLITAINE (CORSE COMPRISE)\"],\n        BBOX[41,-5.5,52,10]],\n    ID[\"IGNF\",\"LAMB93\"]]",
+            "projjson":{
+              "$schema":"https://proj.org/schemas/v0.7/projjson.schema.json",
+              "type":"ProjectedCRS",
+              "name":"RGF93 Lambert 93",
+              "base_crs":{
+                "type":"GeographicCRS",
+                "name":"RGF93 geographiques (dms)",
+                "datum":{
+                  "type":"GeodeticReferenceFrame",
+                  "name":"Reseau Geodesique Francais 1993 v1",
+                  "ellipsoid":{
+                    "name":"GRS 1980",
+                    "semi_major_axis":6378137,
+                    "inverse_flattening":298.257222101
+                  }
+                },
+                "coordinate_system":{
+                  "subtype":"ellipsoidal",
+                  "axis":[
+                    {
+                      "name":"Geodetic longitude",
+                      "abbreviation":"Lon",
+                      "direction":"east",
+                      "unit":"degree"
+                    },
+                    {
+                      "name":"Geodetic latitude",
+                      "abbreviation":"Lat",
+                      "direction":"north",
+                      "unit":"degree"
+                    }
+                  ]
+                },
+                "id":{
+                  "authority":"IGNF",
+                  "code":"RGF93G"
+                }
+              },
+              "conversion":{
+                "name":"LAMBERT-93",
+                "method":{
+                  "name":"Lambert Conic Conformal (2SP)",
+                  "id":{
+                    "authority":"EPSG",
+                    "code":9802
+                  }
+                },
+                "parameters":[
+                  {
+                    "name":"Latitude of false origin",
+                    "value":46.5,
+                    "unit":"degree",
+                    "id":{
+                      "authority":"EPSG",
+                      "code":8821
+                    }
+                  },
+                  {
+                    "name":"Longitude of false origin",
+                    "value":3,
+                    "unit":"degree",
+                    "id":{
+                      "authority":"EPSG",
+                      "code":8822
+                    }
+                  },
+                  {
+                    "name":"Latitude of 1st standard parallel",
+                    "value":44,
+                    "unit":"degree",
+                    "id":{
+                      "authority":"EPSG",
+                      "code":8823
+                    }
+                  },
+                  {
+                    "name":"Latitude of 2nd standard parallel",
+                    "value":49,
+                    "unit":"degree",
+                    "id":{
+                      "authority":"EPSG",
+                      "code":8824
+                    }
+                  },
+                  {
+                    "name":"Easting at false origin",
+                    "value":700000,
+                    "unit":"metre",
+                    "id":{
+                      "authority":"EPSG",
+                      "code":8826
+                    }
+                  },
+                  {
+                    "name":"Northing at false origin",
+                    "value":6600000,
+                    "unit":"metre",
+                    "id":{
+                      "authority":"EPSG",
+                      "code":8827
+                    }
+                  }
+                ]
+              },
+              "coordinate_system":{
+                "subtype":"Cartesian",
+                "axis":[
+                  {
+                    "name":"Easting",
+                    "abbreviation":"X",
+                    "direction":"east",
+                    "unit":"metre"
+                  },
+                  {
+                    "name":"Northing",
+                    "abbreviation":"Y",
+                    "direction":"north",
+                    "unit":"metre"
+                  }
+                ]
+              },
+              "scope":"NATIONALE A CARACTERE LEGAL",
+              "area":"FRANCE METROPOLITAINE (CORSE COMPRISE)",
+              "bbox":{
+                "south_latitude":41,
+                "west_longitude":-5.5,
+                "north_latitude":52,
+                "east_longitude":10
+              },
+              "id":{
+                "authority":"IGNF",
+                "code":"LAMB93"
+              }
+            },
+            "dataAxisToSRSAxisMapping":[
+              1,
+              2
+            ]
+          }
+        }
+      ],
+      "featureCount":1990,
+      "fields":[
+        {
+          "name":"ID",
+          "type":"String",
+          "width":24,
+          "nullable":true,
+          "uniqueConstraint":false
+        },
+        {
+          "name":"INSEE_CAN",
+          "type":"String",
+          "width":5,
+          "nullable":true,
+          "uniqueConstraint":false
+        },
+        {
+          "name":"INSEE_DEP",
+          "type":"String",
+          "width":3,
+          "nullable":true,
+          "uniqueConstraint":false
+        },
+        {
+          "name":"INSEE_REG",
+          "type":"String",
+          "width":2,
+          "nullable":true,
+          "uniqueConstraint":false
+        }
+      ]
+    }
+  ],
+  "metadata":{
+  },
+  "domains":{
+  },
+  "relationships":{
+  }
+}

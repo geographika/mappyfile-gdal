@@ -1,0 +1,11 @@
+/.vs/*
+/.pytest_cache
+/.mypy_cache
+/*.pyc
+/__pycache_
+/*.sln
+mappyfile_gdal.egg-info
+__pycache__
+/*.user
+/build
+/dist

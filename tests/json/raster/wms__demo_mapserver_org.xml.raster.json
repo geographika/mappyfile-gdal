@@ -1,0 +1,57 @@
+{
+  "description": "wms/demo_mapserver_org.xml",
+  "driverShortName": "WMS",
+  "driverLongName": "OGC Web Map Service",
+  "files": [
+    "wms/demo_mapserver_org.xml"
+  ],
+  "size": [
+    512,
+    512
+  ],
+  "metadata": {
+    "SUBDATASETS": {
+      "SUBDATASET_1_NAME": "WMS:https://demo.mapserver.org/cgi-bin/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=WMS_server&CRS=EPSG:4326&BBOX=-90.000000,-180.000000,90.000000,180.000000",
+      "SUBDATASET_1_DESC": "WMS Demo Server for MapServer",
+      "SUBDATASET_2_NAME": "WMS:https://demo.mapserver.org/cgi-bin/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=bluemarble&CRS=EPSG:4326&BBOX=-90.000000,-180.000000,90.000000,180.000000",
+      "SUBDATASET_2_DESC": "Blue Marble World Elevation and Bathymetry Raster",
+      "SUBDATASET_3_NAME": "WMS:https://demo.mapserver.org/cgi-bin/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=continents&CRS=EPSG:4326&BBOX=-90.000000,-180.000000,83.627419,180.000000",
+      "SUBDATASET_3_DESC": "World continents",
+      "SUBDATASET_4_NAME": "WMS:https://demo.mapserver.org/cgi-bin/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=country_bounds&CRS=EPSG:4326&BBOX=-90.000000,-180.000000,83.627419,180.000000",
+      "SUBDATASET_4_DESC": "World country boundaries",
+      "SUBDATASET_5_NAME": "WMS:https://demo.mapserver.org/cgi-bin/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=cities&CRS=EPSG:4326&BBOX=-54.800000,-178.166667,78.933333,179.383333",
+      "SUBDATASET_5_DESC": "World cities"
+    }
+  },
+  "cornerCoordinates": {
+    "upperLeft": [
+      0.0,
+      0.0
+    ],
+    "lowerLeft": [
+      0.0,
+      512.0
+    ],
+    "lowerRight": [
+      512.0,
+      512.0
+    ],
+    "upperRight": [
+      512.0,
+      0.0
+    ],
+    "center": [
+      256.0,
+      256.0
+    ]
+  },
+  "bands": [],
+  "stac": {
+    "proj:shape": [
+      512,
+      512
+    ],
+    "raster:bands": [],
+    "eo:bands": []
+  }
+}

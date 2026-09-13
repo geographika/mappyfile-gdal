@@ -1,0 +1,12 @@
+[flake8]
+max-line-length = 160
+# E203: whitespace before ':' (conflicts with Black formatting style)
+# W503: line break before binary operator (Black recommends this style)
+extend-ignore = E203,W503
+exclude =
+    build,
+    dist,
+    misc,
+    .mypy_cache,
+    .pytest_cache,
+    docs/_build

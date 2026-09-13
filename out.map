@@ -1,0 +1,61 @@
+MAP
+    NAME "GDAL"
+    SIZE 1600 847
+    OUTPUTFORMAT
+        NAME "png24"
+        DRIVER "AGG/PNG"
+        MIMETYPE "image/png"
+        IMAGEMODE RGB
+        EXTENSION "png"
+    END
+    IMAGETYPE "png24"
+    SHAPEPATH "D:\Data\natural_earth_vector.gpkg\packages"
+    PROJECTION
+        "EPSG:4326"
+    END
+    EXTENT -197.8762 -107.8762 197.8762 101.5103
+    RESOLUTION 144
+    DEFRESOLUTION 72
+    LAYER
+        NAME "ne_10m_lakes"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_lakes"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+    LAYER
+        NAME "ne_10m_admin_0_countries"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
+        DATA "ne_10m_admin_0_countries"
+        CLASS
+            STYLE
+                COLOR "#f2d49b"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#f2d49b"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+END

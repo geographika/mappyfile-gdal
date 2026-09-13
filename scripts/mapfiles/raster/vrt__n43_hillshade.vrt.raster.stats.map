@@ -1,0 +1,27 @@
+MAP
+    NAME "GDAL"
+    SIZE 363 363
+    OUTPUTFORMAT
+        NAME "png24"
+        DRIVER "AGG/PNG"
+        MIMETYPE "image/png"
+        IMAGEMODE RGB
+        EXTENSION "png"
+    END
+    IMAGETYPE "png24"
+    SHAPEPATH "C:/docs/gdal/autotest/gdrivers/data"
+    PROJECTION
+        "EPSG:4326"
+    END
+    EXTENT -80.002778 42.997222 -78.997222 44.002778
+    LAYER
+        NAME "n43_hillshade"
+        TYPE RASTER
+        STATUS ON
+        DATA "vrt/n43_hillshade.vrt"
+        PROCESSING "SCALE=1,254"
+        PROJECTION
+            "EPSG:4326"
+        END
+    END
+END

@@ -1,0 +1,157 @@
+{
+  "description": "data/mvt/point_polygon/1/1/1.pbf",
+  "driverShortName": "MVT",
+  "driverLongName": "Mapbox Vector Tiles",
+  "layers": [
+    {
+      "name": "polygon2",
+      "metadata": {},
+      "geometryFields": [
+        {
+          "name": "",
+          "type": "MultiPolygon",
+          "nullable": true,
+          "extent": [
+            0.0,
+            -445169.2527328665,
+            445169.2527328665,
+            0.0
+          ],
+          "coordinateSystem": {
+            "wkt": "PROJCRS[\"WGS 84 / Pseudo-Mercator\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"unnamed\",\n        METHOD[\"Popular Visualisation Pseudo Mercator\",\n            ID[\"EPSG\",1024]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"False easting\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"x\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"y\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    ID[\"EPSG\",3857]]",
+            "projjson": {
+              "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+              "type": "ProjectedCRS",
+              "name": "WGS 84 / Pseudo-Mercator",
+              "base_crs": {
+                "type": "GeographicCRS",
+                "name": "WGS 84",
+                "datum": {
+                  "type": "GeodeticReferenceFrame",
+                  "name": "World Geodetic System 1984",
+                  "ellipsoid": {
+                    "name": "WGS 84",
+                    "semi_major_axis": 6378137,
+                    "inverse_flattening": 298.257223563
+                  }
+                },
+                "coordinate_system": {
+                  "subtype": "ellipsoidal",
+                  "axis": [
+                    {
+                      "name": "Latitude",
+                      "abbreviation": "lat",
+                      "direction": "north",
+                      "unit": "degree"
+                    },
+                    {
+                      "name": "Longitude",
+                      "abbreviation": "lon",
+                      "direction": "east",
+                      "unit": "degree"
+                    }
+                  ]
+                },
+                "id": {
+                  "authority": "EPSG",
+                  "code": 4326
+                }
+              },
+              "conversion": {
+                "name": "unnamed",
+                "method": {
+                  "name": "Popular Visualisation Pseudo Mercator",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 1024
+                  }
+                },
+                "parameters": [
+                  {
+                    "name": "Latitude of natural origin",
+                    "value": 0,
+                    "unit": "degree",
+                    "id": {
+                      "authority": "EPSG",
+                      "code": 8801
+                    }
+                  },
+                  {
+                    "name": "Longitude of natural origin",
+                    "value": 0,
+                    "unit": "degree",
+                    "id": {
+                      "authority": "EPSG",
+                      "code": 8802
+                    }
+                  },
+                  {
+                    "name": "False easting",
+                    "value": 0,
+                    "unit": "metre",
+                    "id": {
+                      "authority": "EPSG",
+                      "code": 8806
+                    }
+                  },
+                  {
+                    "name": "False northing",
+                    "value": 0,
+                    "unit": "metre",
+                    "id": {
+                      "authority": "EPSG",
+                      "code": 8807
+                    }
+                  }
+                ]
+              },
+              "coordinate_system": {
+                "subtype": "Cartesian",
+                "axis": [
+                  {
+                    "name": "X",
+                    "abbreviation": "",
+                    "direction": "east",
+                    "unit": "metre"
+                  },
+                  {
+                    "name": "Y",
+                    "abbreviation": "",
+                    "direction": "north",
+                    "unit": "metre"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 3857
+              }
+            },
+            "dataAxisToSRSAxisMapping": [
+              1,
+              2
+            ]
+          }
+        }
+      ],
+      "featureCount": 1,
+      "fields": [
+        {
+          "name": "mvt_id",
+          "type": "Integer64",
+          "nullable": true,
+          "uniqueConstraint": false
+        },
+        {
+          "name": "",
+          "type": "String",
+          "nullable": true,
+          "uniqueConstraint": false
+        }
+      ]
+    }
+  ],
+  "metadata": {},
+  "domains": {},
+  "relationships": {}
+}

@@ -1,0 +1,101 @@
+MAP
+    NAME "GDAL"
+    SIZE 1024 512
+    OUTPUTFORMAT
+        NAME "png24"
+        DRIVER "AGG/PNG"
+        MIMETYPE "image/png"
+        IMAGEMODE RGB
+        EXTENSION "png"
+    END
+    IMAGETYPE "png24"
+    PROJECTION
+        "EPSG:4326"
+    END
+    EXTENT -179.8242 -89.8242 179.8242 89.8242
+    LAYER
+        NAME "WMS_server"
+        TYPE RASTER
+        STATUS ON
+        CONNECTIONTYPE WMS
+        CONNECTION "https://demo.mapserver.org/cgi-bin/wms?"
+        PROJECTION
+            "EPSG:4326"
+        END
+        METADATA
+            "wms_name" "WMS_server"
+            "wms_title" "WMS Demo Server for MapServer"
+            "wms_srs" "EPSG:4326"
+            "wms_server_version" "1.3.0"
+            "wms_format" "image/png"
+        END
+    END
+    LAYER
+        NAME "bluemarble"
+        TYPE RASTER
+        STATUS ON
+        CONNECTIONTYPE WMS
+        CONNECTION "https://demo.mapserver.org/cgi-bin/wms?"
+        PROJECTION
+            "EPSG:4326"
+        END
+        METADATA
+            "wms_name" "bluemarble"
+            "wms_title" "Blue Marble World Elevation and Bathymetry Raster"
+            "wms_srs" "EPSG:4326"
+            "wms_server_version" "1.3.0"
+            "wms_format" "image/png"
+        END
+    END
+    LAYER
+        NAME "continents"
+        TYPE RASTER
+        STATUS ON
+        CONNECTIONTYPE WMS
+        CONNECTION "https://demo.mapserver.org/cgi-bin/wms?"
+        PROJECTION
+            "EPSG:4326"
+        END
+        METADATA
+            "wms_name" "continents"
+            "wms_title" "World continents"
+            "wms_srs" "EPSG:4326"
+            "wms_server_version" "1.3.0"
+            "wms_format" "image/png"
+        END
+    END
+    LAYER
+        NAME "country_bounds"
+        TYPE RASTER
+        STATUS ON
+        CONNECTIONTYPE WMS
+        CONNECTION "https://demo.mapserver.org/cgi-bin/wms?"
+        PROJECTION
+            "EPSG:4326"
+        END
+        METADATA
+            "wms_name" "country_bounds"
+            "wms_title" "World country boundaries"
+            "wms_srs" "EPSG:4326"
+            "wms_server_version" "1.3.0"
+            "wms_format" "image/png"
+        END
+    END
+    LAYER
+        NAME "cities"
+        TYPE RASTER
+        STATUS ON
+        CONNECTIONTYPE WMS
+        CONNECTION "https://demo.mapserver.org/cgi-bin/wms?"
+        PROJECTION
+            "EPSG:4326"
+        END
+        METADATA
+            "wms_name" "cities"
+            "wms_title" "World cities"
+            "wms_srs" "EPSG:4326"
+            "wms_server_version" "1.3.0"
+            "wms_format" "image/png"
+        END
+    END
+END

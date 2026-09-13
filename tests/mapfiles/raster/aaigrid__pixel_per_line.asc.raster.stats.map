@@ -1,0 +1,21 @@
+MAP
+    NAME "GDAL"
+    SIZE 270 216
+    OUTPUTFORMAT
+        NAME "png24"
+        DRIVER "AGG/PNG"
+        MIMETYPE "image/png"
+        IMAGEMODE RGB
+        EXTENSION "png"
+    END
+    IMAGETYPE "png24"
+    EXTENT 100001.389 650001.389 100748.611 650598.611
+    LAYER
+        NAME "pixel_per_line"
+        TYPE RASTER
+        STATUS ON
+        DATA "aaigrid/pixel_per_line.asc"
+        PROCESSING "SCALE=0,3450"
+        PROCESSING "NODATA=-99999.0"
+    END
+END

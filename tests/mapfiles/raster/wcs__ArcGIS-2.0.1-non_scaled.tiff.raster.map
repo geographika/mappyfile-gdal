@@ -1,0 +1,19 @@
+MAP
+    NAME "GDAL"
+    SIZE 1024 512
+    OUTPUTFORMAT
+        NAME "png24"
+        DRIVER "AGG/PNG"
+        MIMETYPE "image/png"
+        IMAGEMODE RGB
+        EXTENSION "png"
+    END
+    IMAGETYPE "png24"
+    EXTENT 61686.04 7291981.14 82146.04 7302201.14
+    LAYER
+        NAME "ArcGIS-2.0.1-non_scaled"
+        TYPE RASTER
+        STATUS ON
+        DATA "wcs/ArcGIS-2.0.1-non_scaled.tiff"
+    END
+END

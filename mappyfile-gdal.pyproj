@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f207a648-8824-4286-9c9d-6daf6a8795ad}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>
+    </StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|mappyfile-gdal|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".flake8" />
+    <Content Include=".github\workflows\main.yml" />
+    <Content Include=".gitignore" />
+    <Content Include="DEVELOPMENT.md" />
+    <Content Include="lakes-countries.png" />
+    <Content Include="LICENSE" />
+    <Content Include="out.map" />
+    <Content Include="out.png" />
+    <Content Include="README.md" />
+    <Content Include="requirements-dev.txt" />
+    <Content Include="run-local.ps1" />
+    <Content Include="scripts\datasets.csv" />
+    <Content Include="scripts\datasets_sample.csv" />
+    <Content Include="scripts\list-gdal-datasets.ps1" />
+    <Content Include="scripts\mapfiles\raster\95-2024-0595-6890-LA93-0M20-E080.jp2.map" />
+    <Content Include="scripts\mapfiles\raster\aaigrid__pixel_per_line.asc.raster.stats.map" />
+    <Content Include="scripts\mapfiles\raster\vrt__n43_hillshade.vrt.raster.stats.map" />
+    <Content Include="scripts\mapfiles\raster\wcs__ArcGIS-2.0.1-non_scaled.tiff.raster.map" />
+    <Content Include="scripts\mapfiles\raster\wms__demo_mapserver_org.xml.raster.map" />
+    <Content Include="scripts\mapfiles\raster\wms__frmt_wms_openstreetmap_tms.xml.raster.map" />
+    <Content Include="scripts\mapfiles\vector\CANTON.shp.map" />
+    <Content Include="scripts\mapfiles\vector\data__mvt__point_polygon__1__1__1.pbf.vector.map" />
+    <Content Include="scripts\mapfiles\vector\natural_earth_vector.gpkg.map" />
+    <Content Include="scripts\output\raster\95-2024-0595-6890-LA93-0M20-E080.jp2.png" />
+    <Content Include="scripts\output\raster\aaigrid__pixel_per_line.asc.raster.stats.png" />
+    <Content Include="scripts\output\raster\wcs__ArcGIS-2.0.1-non_scaled.tiff.raster.png" />
+    <Content Include="scripts\output\raster\wms__demo_mapserver_org.xml.raster.png" />
+    <Content Include="scripts\output\raster\wms__frmt_wms_openstreetmap_tms.xml.raster.png" />
+    <Content Include="scripts\output\vector\CANTON.shp.png" />
+    <Content Include="scripts\output\vector\data__mvt__point_polygon__1__1__1.pbf.vector.png" />
+    <Content Include="scripts\output\vector\natural_earth_vector.gpkg.png" />
+    <Content Include="scripts\README.md" />
+    <Content Include="tests\data\ne_110m_land.fgb" />
+    <Content Include="tests\json\raster\95-2024-0595-6890-LA93-0M20-E080.jp2.json" />
+    <Content Include="tests\json\raster\aaigrid__pixel_per_line.asc.raster.stats.json" />
+    <Content Include="tests\json\raster\vrt__n43_hillshade.vrt.raster.stats.json" />
+    <Content Include="tests\json\raster\wcs__ArcGIS-2.0.1-non_scaled.tiff.raster.json" />
+    <Content Include="tests\json\raster\wms__demo_mapserver_org.xml.raster.json" />
+    <Content Include="tests\json\raster\wms__frmt_wms_openstreetmap_tms.xml.raster.json" />
+    <Content Include="tests\json\vector\CANTON.shp.json" />
+    <Content Include="tests\json\vector\data__mvt__point_polygon__1__1__1.pbf.vector.json" />
+    <Content Include="tests\json\vector\natural_earth_vector.gpkg.json" />
+    <Content Include="tests\mapfiles\raster\95-2024-0595-6890-LA93-0M20-E080.jp2.map" />
+    <Content Include="tests\mapfiles\raster\aaigrid__pixel_per_line.asc.raster.stats.map" />
+    <Content Include="tests\mapfiles\raster\vrt__n43_hillshade.vrt.raster.stats.map" />
+    <Content Include="tests\mapfiles\raster\wcs__ArcGIS-2.0.1-non_scaled.tiff.raster.map" />
+    <Content Include="tests\mapfiles\raster\wms__demo_mapserver_org.xml.raster.map" />
+    <Content Include="tests\mapfiles\raster\wms__frmt_wms_openstreetmap_tms.xml.raster.map" />
+    <Content Include="tests\mapfiles\vector\CANTON.shp.map" />
+    <Content Include="tests\mapfiles\vector\data__mvt__point_polygon__1__1__1.pbf.vector.map" />
+    <Content Include="tests\mapfiles\vector\natural_earth_vector.gpkg.map" />
+    <Content Include="tests\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mappyfile_gdal\cli.py" />
+    <Compile Include="mappyfile_gdal\drivers.py" />
+    <Compile Include="mappyfile_gdal\main.py" />
+    <Compile Include="mappyfile_gdal\utils.py" />
+    <Compile Include="mappyfile_gdal\vector.py" />
+    <Compile Include="mappyfile_gdal\wms.py" />
+    <Compile Include="mappyfile_gdal\__init__.py" />
+    <Compile Include="mappyfile_gdal\raster.py" />
+    <Compile Include="pyproject.toml" />
+    <Compile Include="scripts\build_render_mapfiles.py" />
+    <Compile Include="scripts\create_map2img_commands.py" />
+    <Compile Include="tests\conftest.py" />
+    <Compile Include="tests\test_cli.py" />
+    <Compile Include="tests\test_main.py" />
+    <Compile Include="tests\test_expected.py" />
+    <Compile Include="tests\test_raster.py" />
+    <Compile Include="tests\test_utils.py" />
+    <Compile Include="tests\test_vector.py" />
+    <Compile Include="tests\test_wms.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".github\" />
+    <Folder Include=".github\workflows\" />
+    <Folder Include="mappyfile_gdal\" />
+    <Folder Include="scripts\mapfiles\" />
+    <Folder Include="scripts\mapfiles\raster\" />
+    <Folder Include="scripts\mapfiles\vector\" />
+    <Folder Include="scripts\output\" />
+    <Folder Include="scripts\output\raster\" />
+    <Folder Include="scripts\output\vector\" />
+    <Folder Include="tests\json\" />
+    <Folder Include="tests\json\vector\" />
+    <Folder Include="tests\json\raster\" />
+    <Folder Include="tests\" />
+    <Folder Include="scripts\" />
+    <Folder Include="tests\data\" />
+    <Folder Include="tests\mapfiles\" />
+    <Folder Include="tests\mapfiles\raster\" />
+    <Folder Include="tests\mapfiles\vector\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="C:\VirtualEnvs\mappyfile-gdal\">
+      <Id>mappyfile-gdal</Id>
+      <Version>3.13</Version>
+      <Description>mappyfile-gdal (Python 3.13 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

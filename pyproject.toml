@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mappyfile-gdal"
+description = "A mappyfile plugin to generate Mapfiles from GDAL datasets"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"  # minimum required due to use of annotations
+authors = [
+    { name = "Seth Girvin", email = "sethg@geographika.co.uk" },
+]
+classifiers = [
+    # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.10",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "mappyfile>=1.0",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/geographika/mappyfile-gdal"
+
+[project.scripts]
+mappyfile-gdal = "mappyfile_gdal.cli:main"
+
+[project.entry-points."mappyfile.plugins"]
+mappyfile_gdal = "mappyfile_gdal"
+
+[tool.setuptools]
+packages = ["mappyfile_gdal"]
+zip-safe = false
+
+[tool.setuptools.dynamic]
+version = { attr = "mappyfile_gdal.__version__" }

@@ -1,0 +1,40 @@
+MAP
+    NAME "GDAL"
+    SIZE 1600 1499
+    OUTPUTFORMAT
+        NAME "png24"
+        DRIVER "AGG/PNG"
+        MIMETYPE "image/png"
+        IMAGEMODE RGB
+        EXTENSION "png"
+    END
+    IMAGETYPE "png24"
+    SHAPEPATH "C:/docs/gdal/autotest/ogr"
+    PROJECTION
+        "IGNF:LAMB93"
+    END
+    EXTENT 42265.4 5989770.6 1299199.9 7167273.1
+    RESOLUTION 144
+    DEFRESOLUTION 72
+    LAYER
+        NAME "CANTON"
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE OGR
+        CONNECTION "D:/Data/France/ADMIN-EXPRESS_3-2__SHP_LAMB93_FXX_2025-02-17/ADMIN-EXPRESS/1_DONNEES_LIVRAISON_2025-02-00187/ADE_3-2_SHP_LAMB93_FXX-ED2025-02-17/CANTON.shp"
+        DATA "CANTON"
+        CLASS
+            STYLE
+                COLOR "#9ecae1"
+                OPACITY 30
+            END
+            STYLE
+                OUTLINECOLOR "#9ecae1"
+                WIDTH 1
+            END
+        END
+        PROJECTION
+            "IGNF:LAMB93"
+        END
+    END
+END
