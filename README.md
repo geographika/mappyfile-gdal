@@ -1,6 +1,6 @@
 # mappyfile-gdal
 
-[![Version](https://img.shields.io/pypi/v/mappyfile-gdal.svg)](https://pypi.python.org/pypi/mappyfile-gdal)
+[![Version](https://img.shields.io/pypi/v/mappyfile-gdal.svg)](https://pypi.org/project/mappyfile-gdal/)
 [![Build Status](https://github.com/geographika/mappyfile-gdal/actions/workflows/main.yml/badge.svg)](https://github.com/geographika/mappyfile-gdal/actions/workflows/main.yml)
 
 A [mappyfile](http://mappyfile.readthedocs.io) plugin to create Mapfiles for GDAL datasets.
